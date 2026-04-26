@@ -2,7 +2,7 @@
 
 **Detect and discourage browser developer tools.** This package aims to limit DevTools access without compromising the user experience. While no defense is 100% foolproof, this tool gives content owners a reasonable level of security for their intellectual property and copyrighted content.
 
-`nodevtool` is a browser-focused TypeScript package. It is ESM-first and targets modern desktop browsers plus mobile Safari.
+`nodevtool` is a browser-focused TypeScript package. It is ESM-first and targets modern browsers.
 
 ## Install
 
