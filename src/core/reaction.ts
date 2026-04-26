@@ -14,6 +14,6 @@ export function runReaction(reaction: ReactionConfig, event: DetectionEvent, deb
       document.documentElement.innerHTML = reaction.rewriteHTML;
     }
   } catch (error) {
-    if (debug) console.debug("[nodevtool] reaction failed", error);
+    if (debug) console.debug("[no-devtool] reaction failed", error);
   }
 }

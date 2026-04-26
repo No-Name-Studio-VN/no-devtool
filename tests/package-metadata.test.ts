@@ -9,8 +9,8 @@ const rootDir = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const packageJson = JSON.parse(readFileSync(resolve(rootDir, "package.json"), "utf8"));
 
 describe("package metadata", () => {
-  it("uses the nodevtool package identity and modern entrypoints", () => {
-    expect(packageJson.name).toBe("nodevtool");
+  it("uses the no-devtool package identity and modern entrypoints", () => {
+    expect(packageJson.name).toBe("no-devtool");
     expect(packageJson.description).toContain("developer tools");
     expect(packageJson.type).toBe("module");
     expect(packageJson.main).toBe("./dist/index.js");

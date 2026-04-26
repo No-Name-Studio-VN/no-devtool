@@ -1,5 +1,5 @@
 {
-  "name": "nodevtool",
+  "name": "no-devtool",
   "version": "1.0.0",
   "description": "Detect and discourage browser developer tools in modern browsers.",
   "keywords": [
@@ -8,15 +8,15 @@
     "devtools",
     "disable-devtools"
   ],
-  "homepage": "https://github.com/No-Name-Studio-VN/nodevtool#readme",
+  "homepage": "https://github.com/No-Name-Studio-VN/no-devtool#readme",
   "bugs": {
-    "url": "https://github.com/No-Name-Studio-VN/nodevtool/issues"
+    "url": "https://github.com/No-Name-Studio-VN/no-devtool/issues"
   },
   "license": "MIT",
   "author": "No-Name-Studio-VN",
   "repository": {
     "type": "git",
-    "url": "https://github.com/No-Name-Studio-VN/nodevtool"
+    "url": "https://github.com/No-Name-Studio-VN/no-devtool"
   },
   "files": [
     "dist",
