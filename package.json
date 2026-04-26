@@ -8,15 +8,15 @@
     "devtools",
     "disable-devtools"
   ],
-  "homepage": "https://github.com/lndmanh/nodevtool#readme",
+  "homepage": "https://github.com/No-Name-Studio-VN/nodevtool#readme",
   "bugs": {
-    "url": "https://github.com/lndmanh/nodevtool/issues"
+    "url": "https://github.com/No-Name-Studio-VN/nodevtool/issues"
   },
   "license": "MIT",
-  "author": "lndmanh",
+  "author": "No-Name-Studio-VN",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lndmanh/nodevtool"
+    "url": "https://github.com/No-Name-Studio-VN/nodevtool"
   },
   "files": [
     "dist",
