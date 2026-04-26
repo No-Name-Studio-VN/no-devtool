@@ -1,0 +1,67 @@
+{
+  "name": "nodevtool",
+  "version": "1.0.0",
+  "description": "Detect and discourage browser developer tools in modern browsers.",
+  "keywords": [
+    "browser",
+    "developer-tools",
+    "devtools",
+    "disable-devtools"
+  ],
+  "homepage": "https://github.com/lndmanh/nodevtool#readme",
+  "bugs": {
+    "url": "https://github.com/lndmanh/nodevtool/issues"
+  },
+  "license": "MIT",
+  "author": "lndmanh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lndmanh/nodevtool"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "sideEffects": true,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "unpkg": "./dist/nodevtool.global.iife.js",
+  "jsdelivr": "./dist/nodevtool.global.iife.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "lint": "oxlint src tests --deny-warnings",
+    "lint:fix": "oxlint src tests --fix",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.test.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "jsdom": "^29.0.2",
+    "oxfmt": "^0.46.0",
+    "oxlint": "^1.61.0",
+    "tsdown": "^0.21.10",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
