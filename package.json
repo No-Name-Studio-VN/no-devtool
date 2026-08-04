@@ -1,6 +1,6 @@
 {
   "name": "no-devtool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect and discourage browser developer tools in modern browsers.",
   "keywords": [
     "browser",
