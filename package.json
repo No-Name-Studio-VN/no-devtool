@@ -16,7 +16,7 @@
   "author": "No-Name-Studio-VN",
   "repository": {
     "type": "git",
-    "url": "https://github.com/No-Name-Studio-VN/no-devtool"
+    "url": "git+https://github.com/No-Name-Studio-VN/no-devtool.git"
   },
   "files": [
     "dist",
